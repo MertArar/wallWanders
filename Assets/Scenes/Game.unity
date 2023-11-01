@@ -343,6 +343,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4046516836610297838, guid: a9cf8ffd09b1fc543b1dd2d3d47fc6ed, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9cf8ffd09b1fc543b1dd2d3d47fc6ed, type: 3}
 --- !u!4 &47090941 stripped
@@ -17792,6 +17796,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2320597322482226543, guid: a9cf8ffd09b1fc543b1dd2d3d47fc6ed, type: 3}
   m_PrefabInstance: {fileID: 2089658177}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1677898319 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5958240079959399948, guid: 7b2d406675b2a2c4db7436f9848fc1a9, type: 3}
+  m_PrefabInstance: {fileID: 5958240078922567791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1677898322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677898319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47fdd42f712cbeb44b4145bbffb5e31e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startCoordinates: {x: 3, y: 3}
+  destinationCoordinates: {x: 1, y: 0}
 --- !u!4 &1678627457 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2336407305983917335, guid: 46570d7780f636b468b5b3e8674fdc3e, type: 3}
@@ -18798,7 +18821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4babab2164fcd434dbee2e485b244ece, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: {x: 4, y: 3}
+  gridSize: {x: 5, y: 5}
 --- !u!4 &1766590487
 Transform:
   m_ObjectHideFlags: 0
@@ -22441,6 +22464,14 @@ PrefabInstance:
     - target: {fileID: 5958240079959399946, guid: 7b2d406675b2a2c4db7436f9848fc1a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958240079959399947, guid: 7b2d406675b2a2c4db7436f9848fc1a9, type: 3}
+      propertyPath: poolSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958240079959399947, guid: 7b2d406675b2a2c4db7436f9848fc1a9, type: 3}
+      propertyPath: spawnTimer
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 5958240079959399948, guid: 7b2d406675b2a2c4db7436f9848fc1a9, type: 3}
       propertyPath: m_Name
